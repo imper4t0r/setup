@@ -21,5 +21,5 @@ sudo apt upgrade -y
 
 create_user "alter" "Test231@!"
 
-sudo bash ./programs.sh
+sudo curl https://raw.githubusercontent.com/imper4t0r/setup/main/programs.sh | bash
 

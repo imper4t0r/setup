@@ -17,7 +17,7 @@ echo "deb https://ookla.bintray.com/debian generic main" | sudo tee  /etc/apt/so
 # Install the programs
 sudo apt install -y mc wget curl htop micro bat speedtest-cli rsync neofetch ncdu tree snapd
 
-sudo snap install lsd
+sudo snap install lsd --classic
 
 alias l='ls -l'
 alias la='ls -a'
@@ -26,6 +26,5 @@ alias lt='ls --tree'
 
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
-
 
 neofetch

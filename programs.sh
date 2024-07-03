@@ -15,7 +15,9 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
 echo "deb https://ookla.bintray.com/debian generic main" | sudo tee  /etc/apt/sources.list.d/speedtest.list
 
 # Install the programs
-sudo apt install -y mc wget curl htop micro bat speedtest-cli rsync neofetch ncdu tree lsd
+sudo apt install -y mc wget curl htop micro bat speedtest-cli rsync neofetch ncdu tree snapd
+
+sudo snap install lsd
 
 alias l='ls -l'
 alias la='ls -a'
